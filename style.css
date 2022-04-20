@@ -1,0 +1,210 @@
+/*------------ Default css code-------------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width:100%;
+}
+
+/* -----------default css code ends here---------------- */
+
+/*-------------- header starts here------------*/
+
+header{
+    background-color: rgb(42, 146, 223);
+}
+
+.lgo a img{
+    width:auto;
+    height:70px;
+}
+
+.menu ul {
+/* border: 1px solid black; */
+margin:0;
+}
+.menu ul li {
+    list-style-type: none;
+    display:inline;
+    /* display:inline-block; */
+    border-right: 1px solid white;
+    padding:15px 0;
+}
+.menu ul li a {
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.3rem;
+    padding:15px 20px;
+    height:70px;
+    line-height:70px;
+}
+
+.menu ul li a:hover{
+    background-color: #0a68b6;
+}
+
+/*---------- header ends here -----------------*/
+
+/*---------- banner section starts here -----------------*/
+
+.banner-sec {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    /* background-attachment:fixed; */
+    background-size:cover;
+    padding:200px 0;
+}
+
+.banner-title h2 {
+    background-color:rgb(153, 152, 154,0.5);
+    width:360px;
+    margin:0 auto;
+    padding:5px;
+    font-size:1.8rem;
+    border-radius:5px;
+    margin-bottom:30px;
+}
+
+.banner-title h1 {
+    background-color:rgba(22, 136, 202, 0.6);
+    width:500px;
+    margin:0 auto;
+    padding:5px;
+    font-size:2.7rem;
+    border-radius:5px;
+}
+
+/*---------- banner section ends here -----------------*/
+
+/*---------- Main starts here -----------------*/
+
+main {
+    background-color: #ecf0f1;
+}
+
+/*---------- about section starts here -----------------*/
+
+.about-sec h1 {
+    padding:30px 0 15px 0;
+}
+
+/*---------- about section ends here -----------------*/
+
+/*---------- card section starts here -----------------*/
+
+.card-sec {
+    margin-top:30px;
+}
+
+.card-sec .card {
+    text-align:center;
+    padding:5px;
+    margin:0 4%;
+    border:1px solid rgb(0,0,0,0.2)   
+}
+
+.card-sec .card p i {
+    background-color:rgba(10, 63, 207, 0.815);
+    width:40px;
+    height:40px;
+    color:white;
+    font-size: 2rem;
+    padding:5px;
+    border-radius:15px 0 15px 0;    
+}
+
+.card-sec .card h1 {
+    margin:15px 0;
+}
+
+/*---------- about section ends here -----------------*/
+
+/*---------- article section starts here -----------------*/
+article {
+    margin-top:40px;
+    /* border:1px solid black; */
+}
+
+article .article {
+    margin-bottom:20px;
+}
+
+article .article img {
+    width:160px;
+    height:auto;
+}
+
+/*---------- article section ends here -----------------*/
+
+/*---------- aside section starts here -----------------*/
+aside {
+    margin-top:40px;
+    text-align:center;
+}
+
+aside h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+aside ul li {
+    list-style-type: none;
+    background-color:rgba(0,0,0,0.05);
+    width:200px;
+    margin:3px auto;
+    border:1px solid rgba(0,0,0,0.2);
+    padding:5px;
+    border-radius:5px;
+}
+
+aside ul li a {
+    color:black;
+    text-decoration:none;
+}
+
+/*---------- aside section ends here -----------------*/
+
+/*---------- footer section starts here -----------------*/
+footer {
+    background-color:rgba(0,0,0,0.95);
+}
+
+footer .row {
+    padding:20px 0;
+}
+
+footer .row .copyright {
+    text-align:left;
+}
+
+footer .row .copyright p {
+    color:white;
+    font-size:1.3rem;
+    font-weight:bold;
+}
+
+footer .row .icon {
+    text-align:right;
+}
+footer .row .icon button {
+    width:30px;
+    height: 30px;
+    margin:0 5px;
+    border:none;
+    border-radius:5px;
+}
+footer .row .icon button i {
+    font-size: 1.5rem;
+    font-weight:bold;
+}
